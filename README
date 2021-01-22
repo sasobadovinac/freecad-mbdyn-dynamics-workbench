@@ -1,5 +1,7 @@
+Please use this workbench with FreeCAD 0.19.
+This workbench has been tested on Windows 7 and Ubuntu 20.04.
 
-To install MBDyn on Ubuntu follow the next steps
+Please follow the next steps to get the software running on Unbuntu:
 
 1-      Download and Install any Ubuntu Base.
 2-      After Installing, run `apt-get update`
@@ -9,3 +11,13 @@ To install MBDyn on Ubuntu follow the next steps
 6-      In the directory of mbdyn[$version], configure the source code by writing the command `./configure --prefix=/usr/local`
 7-      Make it by writing this command In the directory of mbdyn[$version] `make`
 8-      Install it by writing this command In the directory of mbdyn[$version] `sudo make install`
+9-      Download and install FreeCAD 0.19
+10-      Download the source code of the workbench, extract it and paste it into your Mod folder.
+11-      Start FreeCAD. The new workbench will be available.
+
+Please follow the next steps to get the software running on Windows:
+
+1-      Download FreeCAD 0.19.
+2-      Download the source code of the workbench, extract it and paste it into your Mod folder.
+3-      Start FreeCAD. The new workbench will be available. There is an executable of MBDyn within the workbench, so there is no need to install MBDyn on Windows. 
+
