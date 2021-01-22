@@ -1,0 +1,11 @@
+
+To install MBDyn on Ubuntu follow the next steps
+
+1-      Download and Install any Ubuntu Base.
+2-      After Installing, run `apt-get update`
+3-      Install the latest updates for gfortran and C++.
+4-      Download the MBDyn latest release from. https://www.mbdyn.org/?Software_Download
+5-      Untar the downloaded file.
+6-      In the directory of mbdyn[$version], configure the source code by writing the command `./configure --prefix=/usr/local`
+7-      Make it by writing this command In the directory of mbdyn[$version] `make`
+8-      Install it by writing this command In the directory of mbdyn[$version] `sudo make install`
